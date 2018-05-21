@@ -2,13 +2,13 @@
   "An implementation of OAuth for Scribe, with type :scribe.
   The build method requires a Scribe OAuth provider class, under the key
   :provider."
-  (require (qarth [oauth :as oauth]
+  (:require (qarth [oauth :as oauth]
                   [util :as util])
            [qarth.oauth.lib :as lib]
            clojure.java.io
            clojure.string
            [clojure.tools.logging :as log])
-  (import [java.lang String Boolean]
+  (:import [java.lang String Boolean]
           [org.scribe.model OAuthRequest Token]
           [org.scribe.oauth OAuthService]))
 

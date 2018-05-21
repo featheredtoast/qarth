@@ -1,7 +1,7 @@
 (ns qarth.oauth
   "Base fns for OAuth and OAuth-style interactive auth services.
   You can also define your own auth implementations--see the docs."
-  (require [qarth.support :as s]
+  (:require [qarth.support :as s]
            [qarth.oauth.lib :as lib])
   (:refer-clojure :exclude [derive]))
 

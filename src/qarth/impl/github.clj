@@ -1,6 +1,6 @@
 (ns qarth.impl.github
   "A Github oauth impl. Type is :github."
-  (require (qarth [oauth :as oauth])
+  (:require (qarth [oauth :as oauth])
            qarth.impl.oauth-v2
            cheshire.core))
 

@@ -1,6 +1,6 @@
 (ns qarth.oauth.lib
   "Helper fns for OAuth implementations."
-  (require (qarth [core :as core])
+  (:require (qarth [core :as core])
            clj-http.client
            cheshire.core
            ring.util.codec

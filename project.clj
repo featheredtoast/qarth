@@ -21,7 +21,7 @@
   :aliases {"example" ["trampoline" "with-profile" "example" "run" "-m"]
             "exdebug" ["trampoline" "with-profile" "example,debug" "run" "-m"]}
   :deploy-repositories [["clojars" {:creds :gpg}]]
-  :dependencies [[org.clojure/clojure "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.9.0"]
 
                  [org.clojure/data.codec "0.1.0"]
                  [crypto-random "1.2.0"]

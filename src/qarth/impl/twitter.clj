@@ -1,6 +1,6 @@
 (ns qarth.impl.twitter
   "A Twitter oauth impl. Type is :twitter."
-  (require (qarth [oauth :as oauth])
+  (:require (qarth [oauth :as oauth])
            [qarth.oauth.lib :as lib]
            qarth.impl.scribe
            cheshire.core))

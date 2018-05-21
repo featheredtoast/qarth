@@ -1,7 +1,7 @@
 (ns qarth.impl.google
   "A Google oauth impl. Type is :google.
   Default OAuth scope is \"openid email\" (Google requires an OAuth scope)."
-  (require (qarth [oauth :as oauth])
+  (:require (qarth [oauth :as oauth])
            [qarth.oauth.lib :as lib]
            qarth.impl.oauth-v2
            cheshire.core

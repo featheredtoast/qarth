@@ -1,6 +1,6 @@
 (ns qarth.util
   "Some utility fns that are not important parts of Qarth, but you may find useful."
-  (require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io]))
 
 (defn read-resource
   "Reads the resource identified by the given name, with read-eval set to false.
